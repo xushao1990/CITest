@@ -1,1 +1,2 @@
 language: objective-c
+xcodebuild -project CITest.xcodeproj -target CITest -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
